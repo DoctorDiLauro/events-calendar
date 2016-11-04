@@ -1,4 +1,6 @@
-
+html {
+  font-family: "Merriweather", serif;
+}
 
 table {
   border: 1px solid #ccc;
@@ -14,12 +16,32 @@ th {
 }
 
 td {
-
+  height: 8.75em;
 }
 
-strong {
-  display: block;
-  vertical-align: top;
+.grey {
+  background-color: #f2f2f2;
+  border: 1px solid #666;
+  color: #333;
+  border-radius: 8px;
+}
 
-  font-weight: bold;
+.green {
+  background-color: #d1e0bf;
+  border: 1px solid #51603f;
+  color: #6b7e54;
+  border-radius: 8px;
+}
+.red {
+  background-color: #f2bcbc;
+  border: 1px solid #b92828;
+  color: #991919;
+  border-radius: 8px;
+}
+
+.blue {
+  background-color: #d2d6f0;
+  border: 1px solid #1d38da;
+  color: #38448e;
+  border-radius: 8px;
 }
